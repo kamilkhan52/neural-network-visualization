@@ -1,0 +1,30 @@
+# Data directory
+data/
+*.ubyte
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# Generated files in visualizations directory
+visualizations/epoch_*
+visualizations/*.png
+visualizations/weights/
+training_progress.pdf
+
+# Keep empty dirs
+!visualizations/epoch_000/.gitkeep
+
+# Don't ignore example outputs
+!example_outputs/
